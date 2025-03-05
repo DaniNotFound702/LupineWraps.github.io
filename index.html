@@ -14,7 +14,7 @@
 
         }
         .container {
-            width: 80%;
+            width: 95%;
             margin: auto;
             overflow: hidden;
         }
@@ -29,11 +29,7 @@
             padding: 0;
             list-style: none;
         }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
+
         header #branding {
             float: left;
         }
@@ -72,20 +68,26 @@
         
         h1 {
             color: #ffffff;
-            text-align: left;
-            padding-right: 500px;
             font-size: 30px;
             font-family: Arial, sans-serif;
+            padding-right: 1000px;
         }
         li {
-            border: 7px solid #ffffff;
-            border-radius: 11px;
-            background-color: #ffffff;
-            margin-left: 10px;            
+        border-radius: 11px;
+        background-image: linear-gradient(to right, #c5b8b8, #5a88d3);
+        margin-left: 10px;
+        padding: 20px; /* Voeg padding toe om de grootte te vergroten */
+        font-size: 18px; /* Verhoog het lettertype voor grotere tekst */
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
         }
         li a {
-            color: #000000;
+            color: #ffffff;
             text-decoration: none;
+            margin: 10px;
+            margin-bottom: 700px;
+          
         }
         ul {
             padding-right: 100px;
@@ -96,22 +98,48 @@
         position: absolute;
         top: 0;
         left: 0;
-    }
+        }
+
+        pre {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            color: #257196;
+            text-align: left;
+            padding-right: 100px;
+            background-color: #f4f4f4;
+            width: 700px;
+            height: 100px;
+
+        }
+        .welkom-text {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            color: #ffffff;
+            text-align: left;
+            padding-right: 90px;
+            background-color: #f4f4f4;
+            width: 700px;
+            height: 280px;
+            padding-left: 90px;
+            padding-top: 20px;
+            padding-bottom: 100px;
+            background-image: linear-gradient(to right, #aa9494, #4e74b1);
+            border-radius: 70px;
+        }
+    
 
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <img class="logo"src="media/Logo.png" alt="logo" >
-
             <div id="branding">
             </div>
-1
             <nav>
                 <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="recepie.html">Contact</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recepie.html"></a></li>
+                    <li><a href="About.html">over</a></li>
                 </ul>
             </nav>
         </div>
@@ -119,12 +147,14 @@
     <section class="showcase">
         <div class="container">
             <h1>Wrap it up with lupine</h1>
-            <p></p>
+            <div class="welkom-text">
+                <p>Wij zijn gespecialiseerd in het maken van heerlijke en gezonde wraps met behulp van lupine. Lupine is een veelzijdige en voedzame peulvrucht die rijk is aan eiwitten en vezels. Onze wraps zijn perfect voor een gezonde lunch of diner.</p>
+                <p>Onze missie is om smakelijke en voedzame maaltijden te bieden die goed zijn voor zowel jou als de planeet. We geloven in het gebruik van duurzame en lokale ingrediënten om de beste kwaliteit en smaak te garanderen.</p>
+                <p>Probeer vandaag nog een van onze heerlijke wraps en ervaar zelf de voordelen van lupine!</p>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <p>About Us &copy; 2023</p>
-    </footer>
+  
 </body>
 </html>
